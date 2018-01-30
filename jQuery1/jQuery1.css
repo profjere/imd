@@ -1,0 +1,10 @@
+#abox,.box{
+    width:200px;
+    height:200px;
+    background-color:#f00;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size:12px;
+}
