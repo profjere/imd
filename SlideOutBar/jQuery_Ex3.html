@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset='utf-8'>
+   <title>jQuery Example 2</title>
+    <link href="https://fonts.googleapis.com/css?family=Hind:700" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="jQuery_Ex3.css">
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <!--for easing-->
+    <script src="jquery-ui.min.js"></script>
+    
+    <script src="jQuery_EX3.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+    <header></header>
+    
+    <nav class="menu">
+    <ul>
+       <li><a href="#" >Home</a></li>
+        <li><a href="#">Major</a></li>
+        <li><a href="#" class="sub-menu">Faculty</a> 
+        
+        <ul>
+            <li><a href="#">Jeremy Sarachan</a></li>
+            <li><a href="#">Wendi Sierra</a></li>
+            <li><a href="#">Barney Ricca</a></li>
+            <li><a href="#">Dougie Bicket</a></li>
+            <li><a href="#">David Pate</a></li>
+        </ul>
+           
+        </li><!––Note that this closes the li for the sub-menu -->
+     
+        <li><a href="#">Students</a></li>
+         </ul>
+    </nav>
+    
+    <main>
+    <ul class="tabs">
+		<li class="tab-link current" data-tab="DIGC">DIGC</li>
+		<li class="tab-link" data-tab="COMM">COMM</li>
+		<li class="tab-link" data-tab="ENGL">ENGL</li>
+		<li class="tab-link" data-tab="electives">Electives</li>
+	</ul>
+<div class="accordion tab-content current" id="DIGC">
+<h2>DIGC/CSCI 158 P4 Intro to Computational Media (3)</h2>
+<p>Students will explore the creative possibilities of code and gain a working knowledge of variables, conditionals, loops, functions and objects as they learn the fundamentals of procedural thought. In different semesters, this course may focus on the design and creation of computer graphics, mobile apps, computational objects, or web applications. No previous programming experience assumed.</p>
+<h2>DIGC 171 P3 Video Game History (3)</h2>
+<p>Computer and video games have a history that now spans more than a half a century, and already includes dramatic changes due to both technology and culture. This course will explore this history, looking particularly at key titles, cultural impacts and influences, and important moments of technological innovation. Students will also learn about the unique challenges and opportunities of studying the history of gaming, both through their own work and through an exploration of the video game archives at Strong Museum of Play.</p>
+<h2>DIGC 240 P4 The Networked World (3)</h2>
+<p>This course will examine the particular issues surrounding the network structure of relationships, and how that structure impacts our experience of and study of various entities, including search engines, social networks, the spread of technologies and the spread of viruses (both human and computer).</p>
+<h2>DIGC 245 SQ Visualizing Data (3)</h2>
+<p>This course introduces design and statistical principles as well as programming languages and tools for exploring, analyzing, and displaying information. Students will gain an understanding of the role of data visualizations in analyzing complex data and societal trends.</p>
+
+        <h2>DIGC/ARTS 258 Intro Physical Computing (3)</h2>
+<p>Physical computing can be defined as interactive physical systems built using hardware and software that can “sense” the world, helping us to redefine how we interact with technology. Tools like the Arduino and the Lilypad wearable microprocessor can be programmed to use a variety of sensors to detect the world and respond in particular ways, and can lead to the invention of new devices, nontraditional means to communicate with the web, and wearable computing (such as clothing that illuminates based on lighting conditions in a room). This course will teach students the basics for working with these systems, including an introduction to using the hardware (wiring, soldering, etc.) and the software (coding in the Arduino development environment). By the end of the course students will complete an interactive physical computing artifact.</p>
+<h2>DIGC/ARTS 259 P1 Interaction Art (3)</h2>
+<p>In Interaction Art and the Technological Imagination, students study video art, computer graphics, and data-based installations. To produce this creative work, students will learn to manipulate video at the pixel level; develop skills to collect and visualize data gathered via social media APIs; and experiment with alternative interfaces for screen-based art and live performance.</p>
+<h2>DIGC 271 Video Game Design I (3)</h2>
+<p>This course acts as an introduction to the basics of game design. Students will develop a theoretically grounded understanding of the game design process, including developing a theme, understanding genre conventions, and designing for an audience. The course will culminate with the development of a simple digital game.</p>
+        <h2>DIGC 275 Writing for Games (3)</h2>
+<p>In this course students focus on the practical and artistic writing elements of game design. This includes writing dialogue scripts for video games, understanding the part that narrative writing plays in informing game mechanics, and the creative and technical writing aspects of tabletop role-playing games. Students will workshop their writing in class similar to a development or playtest team, while creating their own game.</p>
+        
+<h2>DIGC 371 Video Game Design II (3)</h2>
+<p>This course extends the conceptual framework developed in Video Game Design I. Students will learn to use a game engine and work through all stages of the game design process, including concept development, design, implementation, play-testing, and deployment. The final product for this course will be a multistage game.</p>
+<h2>DIGC 490 Senior Project (3)</h2>
+<p>The class will function as a team that develops a web-based project for public use. Students will utilize skills in web and game development, graphic design, writing, and research, and will be expected to design and complete a usability study and present their work to an audience. </p>
+    </div>
+<div class="accordion tab-content" id="COMM">
+<h2>COMM 219 Design I (3)</h2>
+<p>This course will explore the role of graphic design principles in developing design for publications. Emphasis will be placed on effective communication of audience message and concept development. Through individual design projects, students will explore the critical relationship and effective use of typography, photographic imagery and layout for impactful publication design. Students will have the opportunity to learn how to use professional design software to create and prepare documents for publication. Industry professionals may also come into class to speak and provide valuable student feedback.</p>
+
+<h2>COMM 269 Web Design (3)</h2>
+<p>Students design and develop websites for a variety of devices. The course focuses on HTML, cascading style sheets, and digital imaging with Adobe Photoshop, as well as the use of jQuery plugins to create dynamic effects. Graphic design theory, information architecture, and search engine optimization methods are discussed throughout the semester.</p>
+
+
+<h2>COMM 362 Interactive Media Design (3)</h2>
+    <p>Students apply effective information design to the creation of web-based interactive documentaries, learning techniques for creating data visualizations and dynamic effects through the use of jQuery and javascript libraries.</p>
+
+<h2>COMM 367 Emergent Media and Web Culture (3)</h2>
+<p>Interactivity, collaboration, and content creation by formerly passive audiences are leading to profound changes in the experience of media and the nature of human communication. This discussion-driven seminar will require students to critically analyze both full-length texts and scholarly articles as a means to study themes related to new media and digital cultures, resulting in the production of several papers, both traditional and multimodal. Possible themes include: big data and advertising; the economics of digital media; new media art; disability, gender and race in online environments; cyborg theories; redefinitions of private and public spaces; and social media and activism.</p>
+
+<h2>COMM 468 Advanced Web Development (3)</h2>
+<p>Students learn to create fully dynamic sites by becoming a full-stack web developer using the MERN stack (MongoDB, Express, React, and Node.js). By the end of the semester, students will build both web-based sites and mobile apps using these technologies.
+</p>
+
+        </div>
+        
+<div class="accordion tab-content" id="ENGL">
+    <h2>ENGL 272 P2 Digital Feminisms (3)</h2>
+<p>Reliance on technologies is, and has been for some time, an essential component of daily life in contemporary America. However, while we frequently treat the technological artifacts around us as simple tools, doing so ignores the complex cultural forces that shape our technologies. This course will use feminist theory to explore the co-production of identity and technology, examining how each helps to shape the other. Indeed, first-wave feminism emerged at a time of great technological upheaval, and as technology has continued to change rapidly over time, so to has feminism.</p>
+
+<h2>ENGL 346 Narrative and New Media (3)</h2>
+<p>Technologies shape the way people read, create, and analyze texts. In this class we'll explore some of the new tools through which people are approaching literature in the digital age. Possible areas of focus include transformational media like online fan fiction, tools for multi-media presentations of a text, coding literary texts, and data mining resources for texts.</p>
+
+<h2>ENGL 361 Writing with New Media (3) </h2>
+<p>What does it mean to be a writer and reader in the 21st century? How have developments in digital media required writers to consider the visual in addition to the verbal as well as interactivity? How do conflicting interpretations of copyright law impact creativity? This course focuses on the emerging area of digital writing studies, and we will discuss texts and new media works?both scholarly and popular?addressing such issues as the impact of information technology on research and teaching/learning, the social and cultural dimensions of technology, and models of writing associated with digital media.</p>
+
+<h2>ENGL 380 Visual Rhetoric (3) </h2>
+<p>Developing a critical awareness of the way images, both moving and still, are constructed to convey particular messages is an important part of rhetorical awareness in the digital age. This course will explore various theories of visual rhetoric, using them as a lens through which to approach a variety of texts. Artifacts being analyzed in the course include graphic novels, film and television, advertisements, memorial spaces and museums.</p>
+
+<h2>ENGL 382 Digital Literacies (3) </h2>
+<p>The popularity of blogging, social networking sites, and Twitter mean more people are writing more words than ever before, and that writing can be read and commented on instantly. As a result, people are not just consuming media but also producing media. What it means to be a writer and reader is changing. Literacy is in a transitional period, and these new ways of writing and reading are called “new literacies.” In our readings, discussions, and projects we will consider the social, cultural, and legal implications of digital media and the new conditions for literacy.</p>
+
+
+        </div>
+        
+<div class="accordion tab-content" id="electives"> The electives
+        </div>
+    
+    
+    </main>
+    <footer><p>Program Director: Jeremy Sarachan/jsarachan@sjfc.edu</p></footer>
+ 
+    <!--sidebar-->
+<div class="portfolio">
+  <h1>Portfolio</h1>
+    <div class="portfolioExample"></div>
+  <div class="portfolioExample"></div>
+  <div class="portfolioExample"></div>
+  <div class="portfolioExample"></div>
+</div>
+    </div>
+    
+</body>
+</html>

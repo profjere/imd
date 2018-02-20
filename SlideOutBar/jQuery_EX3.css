@@ -1,0 +1,174 @@
+*{
+    margin:0; padding: 0;
+}
+
+h2, p{
+    font-family: "Hind";
+}
+
+h2{
+    color:#ed1c24;
+}
+
+header{
+    background-image:url("images/dct_logo.jpg");
+    background-size:contain;
+    background-color:#000;
+    height:70px;
+    background-repeat: no-repeat;
+    margin-bottom: 5px;
+    padding-bottom:20px;   
+    margin-left:30px;
+}
+
+
+nav{
+    padding: 30px 0px;
+}
+
+nav a{
+    width:1fr;
+    height:50px;
+    font-size:2.3em;
+    text-decoration:none;
+    color:#ed1c24;
+}
+
+nav a:hover{
+    color:#000;
+}
+main{
+    margin:0 4em;
+}
+main p{
+    margin-bottom:20px;
+}
+
+footer{
+    border-top:solid #000 3px;
+    margin: 0 20px; 
+    padding: 5px 5px 5px 30px;
+}
+
+
+/*tabs*/
+ul.tabs{
+			margin: 0px;
+			padding: 0px;
+			list-style: none;
+		}
+
+		ul.tabs li{
+			background: none;
+			display: inline-block;
+			padding: 10px 20px;
+			cursor: pointer;
+            
+		}
+
+		ul.tabs li.current{
+			border: 2px solid #000;
+		}
+
+		.tab-content{
+			display: none;
+			padding: 15px;
+		}
+
+		.tab-content.current{
+			display: inherit;
+		}
+
+/*drop-down (no jQuery)*/
+
+.menu ul {
+    display: flex;
+    align-content:space-between;
+    flex-direction: row;
+    list-style: none;
+    padding: 10px 40px;
+    margin: 0;
+}
+
+.menu ul li {
+  width: 25%;
+    /*because there are four links*/
+}
+
+.menu ul li > ul {
+     /* ">" refers to tags immediately below */
+    display: none;
+    font-size:.5em;
+    margin-left:-1em;
+    /*position:absolte keeps it floating above the page.*/
+    position:absolute;
+    z-index:2;
+    
+}
+.menu ul li:hover > ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu ul li > ul li {
+   
+  width: 100%;
+  margin:2px;  
+  border-radius: 10px;
+  margin:2px;
+  background-color:#f00;
+    
+}
+
+.menu ul li > ul li a {
+    color:#c2c3c4;
+    text-decoration: none;
+}
+
+.menu ul li > ul li a:hover {
+    color:#fff;
+}
+
+
+
+.menu a {
+    text-transform: uppercase;
+     margin:0 1em;
+    
+}
+
+/*sidebar*/
+
+.portfolio{
+   
+    width:0;
+    padding-left:2em;
+    background-color:#000;
+    height: 100%;
+    position: fixed;
+    z-index: 2;
+    top: 0; 
+    left: 0;
+    overflow-x: hidden; 
+    color:#fff;
+}
+
+.portfolioExample{
+    width:90%;
+    height:200px;
+    background-color:#f00;
+    margin-bottom: 1em;
+    
+}
+/*to get rid of scroll bars*/
+.hideScroll{
+    overflow:hidden;
+}
+/*so we can animate the margin-left*/
+#wrapper{
+    margin-left:0;
+}
+
+
+
+
