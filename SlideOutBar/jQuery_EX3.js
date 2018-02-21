@@ -36,8 +36,8 @@ $(function(){
 // for slideout
     
 $("body").on("mousemove",function(event) {
-    if (event.pageX < 100 && openPort==true) {
-        $('.portfolio').animate({"width":200},{duration:500, easing:"easeInOutQuad", complete:openPort=false});
+    if (event.pageX < 100 && openPort==false) {
+        $('.portfolio').animate({"width":200},{duration:500, easing:"easeInOutQuad", complete:openPort=true});
         $('.portfolio').removeClass('hideScroll');
         /*$('#wrapper').animate({"margin-left":200},500);*/
             
@@ -45,8 +45,8 @@ $("body").on("mousemove",function(event) {
      });
     
 $("body").on("mousemove",function(event) {
-    if (event.pageX >250 && openPort==false) {
-        $('.portfolio').animate({"width":-20},{duration:500, easing:"swing", complete:openPort=true});
+    if (event.pageX >250 && openPort==true) {
+        $('.portfolio').animate({"width":-20},{duration:500, easing:"swing", complete:openPort=false});
         $('.portfolio').addClass('hideScroll');
         /*$('#wrapper').animate({"margin-left":0},500);*/
             
