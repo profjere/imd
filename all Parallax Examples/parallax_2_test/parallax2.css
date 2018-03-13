@@ -1,0 +1,38 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.parallax,.parallax2,.parallax3 {
+    
+    min-height: 300px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .parallax{
+        background-image: url("images/snow1.jpg");
+    }
+    .parallax2{
+        background-image: url("images/snow_time.gif");  
+    }
+    .parallax3{
+        background-image:url("images/snow3.jpg");
+    }
+    .text1,.text2,.text3{
+        background-color:#ffc;
+        font-size:48px;
+    }
+    .text1{
+        height:125px;
+    }
+    .text2{
+        height:175px;
+    }
+    .text3{
+        height:150px;
+    }

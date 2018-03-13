@@ -1,0 +1,45 @@
+
+#text{
+    margin-left:100px;
+    width: 200px;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:3;
+}
+
+#text h1 {
+    font-family:Arial;
+    font-weight: bold;
+    font-size: 2.4em;
+}
+#text p{
+    font-family: "Times New Roman";
+    font-size: .9em;  
+}
+#text > h1:not(:first-child) { margin-top:400px;}
+
+#theBackground{
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:1;
+    height:2500px;
+    width:100%;
+    background-image: url("images/background_wires.jpg");
+    background-repeat: no-repeat;
+}
+
+#lightning{
+   position:absolute;
+    top:0;
+    left:0;
+    z-index:2;
+   margin-left:400px;
+    height:3240px;
+    width:100%;
+    background-image: url("images/lightning.png");
+    background-repeat: repeat-y;
+    
+    
+}
