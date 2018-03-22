@@ -8,7 +8,7 @@
     <script>
     $(function(){
     //var vid = $('#myVideo');
-    var vid = document.getElementById("myVideo"); 
+    var vid = document.getElementById("myVideo"); //must be done in this non-jQuery way.
     var pauseButton = $('#pauseNow');
     var playButton = $('#playNow');
     var startOver = $('#startOver');
@@ -36,8 +36,8 @@
 </head>
 <body>
 <video id="myVideo" controls loop poster="still_image.png" height="450" width="600" >
- 	 <source src="sarachan_experiment.mov" type="video/mp4">
-  <source src="sarachan_experiment.mov" type="video/ogg">
+ 	 <source src="sarachan_experiment.mp4" type="video/mp4">
+  <source src="sarachan_experiment.ogg" type="video/ogg">
   Your browser does not support the video tag.
 </video>
     <br><button type="button" id="playNow">Play Video</button> 
